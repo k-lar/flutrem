@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:flutrem/screens/easteregg.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -19,7 +20,14 @@ class NavDrawer extends StatelessWidget {
           ListTile(
             leading: const Icon(Icons.settings),
             title: const Text('Settings'),
-            onTap: () => {Navigator.of(context).pop()},
+            onTap: () => {
+              //  Navigator.push(context,
+              //      MaterialPageRoute(builder: (context) => const EasterEgg()))
+            },
+            onLongPress: () => {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => const EasterEgg()))
+            },
           ),
           ListTile(
             leading: const Icon(Icons.info),
