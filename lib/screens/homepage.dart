@@ -1,5 +1,6 @@
 import 'package:flutrem/models/database_model.dart';
 import 'package:flutrem/models/rem_model.dart';
+import 'package:flutrem/widgets/navdrawer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutrem/widgets/user_input.dart';
 import 'package:flutrem/widgets/rem_list.dart';
@@ -27,6 +28,7 @@ class _HomepageState extends State<Homepage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: NavDrawer(),
       appBar: AppBar(
         title: const Text('Flutrem'),
       ),
