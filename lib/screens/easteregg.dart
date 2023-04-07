@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 
 class EasterEgg extends StatefulWidget {
   const EasterEgg({super.key});
@@ -16,7 +14,7 @@ class _EasterEggState extends State<EasterEgg> {
       appBar: AppBar(
         title: const Text('UwU u found my seqwuet'),
       ),
-      body: const Center(child: Text('Lov u pat :O')),
+      body: const Center(child: Text('Lov u :O')),
     );
   }
 }

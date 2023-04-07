@@ -1,8 +1,6 @@
-import 'dart:io';
-
+import 'package:flutrem/screens/about.dart';
 import 'package:flutrem/screens/easteregg.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 class NavDrawer extends StatelessWidget {
   @override
@@ -14,7 +12,7 @@ class NavDrawer extends StatelessWidget {
           const DrawerHeader(
             child: Text(
               'Remind your\nmom',
-              style: TextStyle(color: Colors.black, fontSize: 25),
+              style: TextStyle(fontSize: 25),
             ),
           ),
           ListTile(
@@ -32,12 +30,10 @@ class NavDrawer extends StatelessWidget {
           ListTile(
             leading: const Icon(Icons.info),
             title: const Text('About'),
-            onTap: () => {Navigator.of(context).pop()},
-          ),
-          ListTile(
-            leading: const Icon(Icons.exit_to_app),
-            title: const Text('Exit'),
-            onTap: () => {Navigator.of(context).pop()},
+            onTap: () => {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => const About()))
+            },
           ),
         ],
       ),

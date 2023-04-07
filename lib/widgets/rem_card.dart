@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import '../models/rem_model.dart';
 import 'package:intl/intl.dart';
 
+import 'delete_dialog.dart';
+
 // ignore: must_be_immutable
 class Remindercard extends StatefulWidget {
   final int id;
@@ -73,8 +75,17 @@ class _RemindercardState extends State<Remindercard> {
             ),
           ),
           IconButton(
-              onPressed: () {
-                widget.deleteFunction(anotherRem);
+              onPressed: () async {
+                if (!widget.isChecked) {
+                  bool? val = await showDeleteConfirmationDialog(context);
+
+                  if (val == true) {
+                    widget.deleteFunction(anotherRem);
+                  }
+                  print(val);
+                } else {
+                  widget.deleteFunction(anotherRem);
+                }
               },
               icon: const Icon(Icons.close))
         ],

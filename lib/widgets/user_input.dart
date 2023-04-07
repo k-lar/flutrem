@@ -27,11 +27,13 @@ class UserInput extends StatelessWidget {
           const SizedBox(width: 10),
           GestureDetector(
             onTap: () {
-              var myRem = Reminder(
-                  title: textController.text,
-                  creationDate: DateTime.now(),
-                  isChecked: false);
-              insertFunction(myRem);
+              if (textController.text.isNotEmpty) {
+                var myRem = Reminder(
+                    title: textController.text,
+                    creationDate: DateTime.now(),
+                    isChecked: false);
+                insertFunction(myRem);
+              }
             },
             child: Container(
               color: Colors.blue,
