@@ -20,6 +20,11 @@ class About extends StatelessWidget {
             title: Text('Author:'),
             subtitle: Text('K_Lar'),
           ),
+          ListTile(
+            leading: Icon(Icons.link),
+            title: Text('Project GitLab:'),
+            subtitle: Text('https://gitlab.com/k_lar/flutrem'),
+          ),
         ],
       ),
     );

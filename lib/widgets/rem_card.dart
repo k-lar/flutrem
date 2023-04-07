@@ -82,7 +82,7 @@ class _RemindercardState extends State<Remindercard> {
                   if (val == true) {
                     widget.deleteFunction(anotherRem);
                   }
-                  print(val);
+                  //print(val);
                 } else {
                   widget.deleteFunction(anotherRem);
                 }
