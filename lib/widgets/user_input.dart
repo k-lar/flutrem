@@ -9,7 +9,7 @@ class UserInput extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 8),
+      padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
       child: Row(
         children: [
           Expanded(

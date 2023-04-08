@@ -35,6 +35,7 @@ class _HomepageState extends State<Homepage> {
       body: Column(
         children: [
           RemList(insertFunction: addItem, deleteFunction: deleteItem),
+          const Divider(),
           UserInput(insertFunction: addItem),
         ],
       ),
