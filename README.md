@@ -15,4 +15,15 @@ the lines like all my other `*rem` programs do.
 
 ## Screenshots
 
+**Main screen:**  
 
+![Main screen](https://gitlab.com/k_lar/flutrem/uploads/45dad9b89e654e7cf26d2e5dc5b2498c/main_screen.jpg)
+
+**Delete warning if entry is not checked**
+
+![Delete warning](https://gitlab.com/k_lar/flutrem/uploads/cbc5f7c2c77d2a4482af2bfb86b3e51f/delete_warning.jpg)
+
+
+**About page**
+
+![About page](https://gitlab.com/k_lar/flutrem/uploads/7625da98ccf4c3981933e63bc746c7d4/about.jpg)
