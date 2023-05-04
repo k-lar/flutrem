@@ -1,16 +1,18 @@
 # flutrem
 
-A new Flutter project.
+A continuation of my `*rem` series of programs (But this time on mobile).  
+This is the first mobile version that I made, so the user experience might not be the greatest,
+but I tried the best that I could with the little experience I have with Flutter.
 
-## Getting Started
+It's surprisingly hard to make a notes/reminders app without a database running in the background,
+so I ended up using sqflite for that. Next time I'll try simply making a file and iterating through
+the lines like all my other `*rem` programs do.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Adding entries
+- Deleting entries
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
