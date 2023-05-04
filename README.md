@@ -17,13 +17,13 @@ the lines like all my other `*rem` programs do.
 
 **Main screen:**  
 
-![Main screen](https://gitlab.com/k_lar/flutrem/uploads/45dad9b89e654e7cf26d2e5dc5b2498c/main_screen.jpg)
+![Main screen](https://gitlab.com/k_lar/flutrem/uploads/18bb3085949ccee782b37553ac83ff19/main_screen_small.jpg)
 
-**Delete warning if entry is not checked**
+**Delete warning if entry is not checked**  
 
-![Delete warning](https://gitlab.com/k_lar/flutrem/uploads/cbc5f7c2c77d2a4482af2bfb86b3e51f/delete_warning.jpg)
+![Delete warning](https://gitlab.com/k_lar/flutrem/uploads/b5731de95a069c59cf46fc6db366bf03/delete_warning_small.jpg)
 
 
-**About page**
+**About page**  
 
-![About page](https://gitlab.com/k_lar/flutrem/uploads/7625da98ccf4c3981933e63bc746c7d4/about.jpg)
+![About page](https://gitlab.com/k_lar/flutrem/uploads/d0d1fe67b16fdaf72ba79996da4d666e/about_small.jpg)
